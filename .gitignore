@@ -1,0 +1,11 @@
+# 環境変数・機密情報（絶対にコミットしない）
+*.env
+.env*
+
+# キャッシュ・自動生成ファイル
+__pycache__/
+*.pyc
+node_modules/
+.next/
+dist/
+build/
