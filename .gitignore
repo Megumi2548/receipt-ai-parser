@@ -9,3 +9,7 @@ node_modules/
 .next/
 dist/
 build/
+
+# アップロード画像を除外（フォルダ構造だけ残す場合）
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
